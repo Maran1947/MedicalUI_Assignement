@@ -104,11 +104,6 @@ function Search() {
                                 )
                             })
                         }
-                        {/*                         
-                        <div className="smt_fitler_item">
-                            <p className="smt_filter_item_text">500 mg</p>
-                            <p className="smt_filter_item_remove_icon"><i class="fa-solid fa-xmark"></i></p>
-                        </div> */}
                         { selectedFilters.length > 0 && <p className="smt_filter_remove_all" onClick={handleRemoveAll} >Remove all</p> }
                     </div>
                 </div>
